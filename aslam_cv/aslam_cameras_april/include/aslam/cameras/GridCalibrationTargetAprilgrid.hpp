@@ -35,7 +35,7 @@ class GridCalibrationTargetAprilgrid : public GridCalibrationTargetBase {
       showExtractionVideo(false),
       minTagsForValidObs(4),
       minBorderDistance(4.0),
-      blackTagBorder(2) {};
+      blackTagBorder(1) {};
 
     //options
     /// \brief subpixel refinement of extracted corners
